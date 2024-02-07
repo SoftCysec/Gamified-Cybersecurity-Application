@@ -71,10 +71,12 @@ Before you begin, make sure you have the following installed:
 
 First, clone the repository to your local machine:
 
-```bash
+```
 git clone https://github.com/SoftCysec/Gamified-Cybersecurity-Application.git
+```
+```
 cd Gamified-Cyber-Edu
-
+```
 
 # Running the Application with Docker
 
@@ -86,7 +88,7 @@ docker pull softcysec/gamified-cybersec:v4-latest
 ```
 2. Run the Docker container:
 ```
-docker run -p 80:80 softcysec/gamified-cybersec:v4-latest
+docker run -p 80:80 softcysec/gamified-cybersec:v5-latest
 ```
 This command will start the container and map port 80 in the container to port 8080 on your host machine.
 3. Access the application:
